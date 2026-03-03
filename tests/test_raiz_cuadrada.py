@@ -8,11 +8,11 @@ from raiz_cuadrada import raiz_cuadrada
 
 # Caso correcto
 def test_raiz_cuadrada_correcta():
-    assert raiz_cuadrada(9) == 4 #Error intencional aplicado
+    assert raiz_cuadrada(9) == 3
 
 # Caso límite
 def test_raiz_cuadrada_cero():
-    assert raiz_cuadrada(0) == 5 #Error intencional aplicado
+    assert raiz_cuadrada(0) == 0
 
 # Caso error número negativo
 def test_raiz_cuadrada_negativo():
