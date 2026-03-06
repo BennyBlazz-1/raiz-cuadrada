@@ -5,31 +5,20 @@
 <title>Calculadora de Raíz Cuadrada</title>
 
 <style>
-
 body{
     font-family: Arial;
+    text-align: center;
+    margin-top: 100px;
     background:#f4f4f4;
-    text-align:center;
-    margin-top:60px;
 }
 
 .container{
     background:white;
-    width:420px;
-    margin:auto;
     padding:30px;
+    width:350px;
+    margin:auto;
     border-radius:10px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
-}
-
-h1{
-    color:#333;
-}
-
-.descripcion{
-    font-size:14px;
-    color:#555;
-    margin-bottom:20px;
 }
 
 input{
@@ -55,28 +44,12 @@ button:hover{
     margin-top:15px;
     font-size:18px;
 }
-
-.footer{
-    margin-top:25px;
-    font-size:12px;
-    color:#777;
-}
-
 </style>
 
 </head>
 <body>
 
 <div class="container">
-
-<h1>Bienvenido 👋</h1>
-
-<p class="descripcion">
-Esta página forma parte de un proyecto académico que demuestra el uso de 
-<strong>Integración Continua (CI)</strong> utilizando GitHub Actions.  
-Aquí puedes calcular la raíz cuadrada de cualquier número mientras el código
-es probado automáticamente mediante pruebas con <strong>pytest</strong>.
-</p>
 
 <h2>Calculadora de Raíz Cuadrada</h2>
 
@@ -87,10 +60,6 @@ es probado automáticamente mediante pruebas con <strong>pytest</strong>.
 <button onclick="calcular()">Calcular</button>
 
 <div class="resultado" id="resultado"></div>
-
-<div class="footer">
-Proyecto DevOps con GitHub Actions
-</div>
 
 </div>
 
