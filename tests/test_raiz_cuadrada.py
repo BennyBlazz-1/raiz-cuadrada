@@ -8,16 +8,16 @@ from raiz_cuadrada import raiz_cuadrada
 
 # Caso correcto
 def test_raiz_cuadrada_correcta():
-    assert raiz_cuadrada(9) == 3
+    assert raiz_cuadrada(9) == 7
 
 # Caso límite
 def test_raiz_cuadrada_cero():
-    assert raiz_cuadrada(0) == 0
+    assert raiz_cuadrada(0) == 9
 
 # Caso error número negativo
 def test_raiz_cuadrada_negativo():
     with pytest.raises(ValueError):
-        raiz_cuadrada(-4)
+        raiz_cuadrada(4)
 
 # Caso error tipo inválido
 def test_raiz_cuadrada_tipo_invalido():
